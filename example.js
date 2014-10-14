@@ -25,9 +25,9 @@ function test_two () {
 
 /**
  * Solves this system:
- * x + y = 10
- * 2x + y = 16
- * 3x + 2y = 24
+ * x + y + z = 6
+ * 2x + y + 2z = 10
+ * x + 2y + 3z = 14
  */
 function test_three () {
     $A = [[1, 1, 1], [2, 1, 2], [1, 2, 3]];
