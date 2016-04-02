@@ -5,7 +5,7 @@ var count = function (a) {
 
 var array_fill = function (i, n, v) {
     var a = [];
-    for (var i = 0; i < n; i++) {
+    for (; i < n; i++) {
         a.push(v);
     }
     return a;
